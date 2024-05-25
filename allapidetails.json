@@ -1,0 +1,16 @@
+PS C:\Users\Zul\Development\sandbox\react_native_amplify\amplified_todo\amplified_todo> amplify import storage
+? Select from one of the below mentioned services: DynamoDB table - NoSQL Database
+√ Select the DynamoDB Table you want to import: · zt_a_user
+
+✅ DynamoDB Table 'zt_a_user' was successfully imported.
+
+Next steps:
+- This resource can now be accessed from REST APIs (`amplify add api`) and Functions (`amplify add function`)
+PS C:\Users\Zul\Development\sandbox\react_native_amplify\amplified_todo\amplified_todo> amplify add api
+? Select from one of the below mentioned services: REST
+√ Provide a friendly name for your resource to be used as a label for this category in the project: · apiccdac22b
+√ Provide a path (e.g., /book/{isbn}): · /items
+Only one option for [Choose a Lambda source]. Selecting [Create a new Lambda function].
+? Provide an AWS Lambda function name: reactnsbamplfy732b221d
+? Choose the runtime that you want to use: NodeJS
+? Choose the function template that you want to use: Hello World
